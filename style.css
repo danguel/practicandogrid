@@ -1,0 +1,67 @@
+.general{
+    display: grid; /*primera propiedad*/
+    grid-template-columns: 70px 70px 70px; /*segunda propiedad aplicando 1fr unidad de medida tambiens se puede funcionar con px para tener abosluto o variblaes*/
+    /* grid-template-columns: 1fr 1fr 1fr; segunda propiedad aplicando 1fr unidad de medida tambiens se puede funcionar con px para tener abosluto o variblaes */
+    grid-auto-rows: auto;
+    
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+
+    justify-content: center;
+}
+.contenedor4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.contenedor10{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.contenedor11{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/* .contenedor4{ ejemplo para poder darle tamaño personalizado utilizando las lineas de creacion del columnnas y lineas 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
+
+.titulo{
+    align-items: center;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content:center;
+}
+
+body{
+    background-color: purple;
+}
+
+.nombre{
+    text-align: center;
+    color: white;
+}
+
+.precio{
+    text-align: center;
+    color: brown;
+}
+
+.contenedor{
+    background-color: plum;
+}
+
+img{
+    align-items: center;
+    text-align: center;
+}
